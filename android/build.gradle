@@ -30,6 +30,9 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+
+    namespace 'com.example.flutter_braintree'
+    
     compileSdkVersion 28
 
     defaultConfig {
